@@ -82,7 +82,7 @@ public class SecondActivity extends AppCompatActivity {
         String telefono = telefonoD.getText().toString();
         String tipoSangre = (String) tipoSangreD.getSelectedItem();
         String  RH = (String) rhD.getSelectedItem();
-        dono = donoD.getTag().hashCode();
+        dono = donoD.getText().hashCode();
         //dono =  Integer.parseInt(donoD.getText().toString());
 
         if(nombre.equals("")){
