@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "612326007029",
+    "firebase_url": "https://bloodonate-cd78d.firebaseio.com",
+    "project_id": "bloodonate-cd78d",
+    "storage_bucket": "bloodonate-cd78d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612326007029:android:37a23c26c1724b96bc65bc",
+        "android_client_info": {
+          "package_name": "com.example.bloodonate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612326007029-5m46aeai56nhlrkes4egbjgojqdens1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloodonate",
+            "certificate_hash": "5027b08c297060c34e3714597dfe1bca6406dd3d"
+          }
+        },
+        {
+          "client_id": "612326007029-rckgp95jja3le004u9pk6v5cctnlcrm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDreNoH-WLYG3pohjJKM6nQpn8u93K_pr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612326007029-rckgp95jja3le004u9pk6v5cctnlcrm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

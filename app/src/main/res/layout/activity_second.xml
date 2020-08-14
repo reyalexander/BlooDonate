@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/imagen4"
+    tools:context=".SecondActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Formulario Donador"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/txt_nombreDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Nombre"
+                android:inputType="textPersonName"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/txt_apellidoPDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Apellido Paterno"
+                android:inputType="textPersonName"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/txt_apellidoMDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Apellido Materno"
+                android:inputType="textPersonName"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/txt_dniDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese su DNI"
+                android:inputType="number"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/txt_emailDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Correo Electronico"
+                android:inputType="textEmailAddress"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/txt_direccionDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Direccion"
+                android:inputType="text"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:id="@+id/txt_telefonoDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese Telefono"
+                android:inputType="phone"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtViewTipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Tipo de Sangre: "
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <Spinner
+                android:id="@+id/tipoDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/txtViewRH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="RH: "
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <Spinner
+                android:id="@+id/rhDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp" />
+
+            <CheckBox
+                android:id="@+id/donoDonador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:text="DONO ANTERIORMENTE?" />
+
+            <Button
+                android:id="@+id/btnGuardarDonor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_light"
+                android:text="Enviar"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
