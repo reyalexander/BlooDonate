@@ -107,6 +107,11 @@ public class Persona {
 
     @Override
     public String toString() {
+        return nombre;
+    }
+    /*
+    @Override
+    public String toString() {
         return "Persona{" +
                 "ID='" + ID + '\'' +
                 ", nombre='" + nombre + '\'' +
@@ -118,7 +123,6 @@ public class Persona {
                 ", telefono='" + telefono + '\'' +
                 ", tipoSangre='" + tipoSangre + '\'' +
                 ", RH='" + RH + '\'' +
-                ", dono=" + dono +
                 '}';
-    }
+    }*/
 }

@@ -19,12 +19,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserMenuActivity extends AppCompatActivity {
-
     private ListView listViewPerson;
     private List<Persona> listPerson = new ArrayList<Persona>();
     ArrayAdapter<Persona> arrayAdapterPersona;
 
-    FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -32,11 +30,13 @@ public class UserMenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_usermenu);
 
         listViewPerson = findViewById(R.id.listv_donadores);
+
         listarDonadores();
+
     }
 
     private void listarDonadores() {
-        databaseReference.child("Persona").addValueEventListener(new ValueEventListener() {
+        databaseReference.child("Donador").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 listPerson.clear();
@@ -44,7 +44,7 @@ public class UserMenuActivity extends AppCompatActivity {
                     Persona p = objSnapshot.getValue(Persona.class);
                     listPerson.add(p);
 
-                    arrayAdapterPersona = new ArrayAdapter<Persona>(UserMenuActivity.this, android.R.layout.simple_expandable_list_item_1, listPerson);
+                    arrayAdapterPersona = new ArrayAdapter<Persona>(UserMenuActivity.this, android.R.layout.simple_list_item_1, listPerson);
                     listViewPerson.setAdapter(arrayAdapterPersona);
                 }
             }
@@ -55,4 +55,5 @@ public class UserMenuActivity extends AppCompatActivity {
             }
         });
     }
+
 }
