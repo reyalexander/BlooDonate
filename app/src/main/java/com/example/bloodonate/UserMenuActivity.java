@@ -30,7 +30,6 @@ public class UserMenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_usermenu);
 
         listViewPerson = findViewById(R.id.listv_donadores);
-
         listarDonadores();
 
     }

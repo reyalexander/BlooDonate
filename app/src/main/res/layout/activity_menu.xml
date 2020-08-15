@@ -12,9 +12,9 @@
         android:id="@+id/btn_userFree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginBottom="372dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="264dp"
         android:background="#E88A8A"
         android:text="Usuario Libre"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,9 +24,9 @@
         android:id="@+id/btn_donador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginBottom="372dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="264dp"
         android:background="#E88A8A"
         android:text="Donador"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,27 +38,32 @@
         android:layout_height="50dp"
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
         android:layout_marginBottom="48dp"
         android:gravity="center_horizontal"
         android:text="Usuario que busca un donador"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="17dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_userFree"
+        app:layout_constraintEnd_toStartOf="@+id/txt_donador"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txt_donador"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="44dp"
         android:gravity="center_horizontal"
         android:text="Usuario que quiere donar"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="17dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_donador"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title" />
 
     <TextView
         android:id="@+id/txt_title"
@@ -79,6 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

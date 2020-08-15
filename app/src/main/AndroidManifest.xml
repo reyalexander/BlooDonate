@@ -28,6 +28,7 @@
         <activity android:name=".MenuActivity"></activity>
         <activity android:name=".SecondActivity"></activity>
         <activity android:name=".UserMenuActivity"></activity>
+        <activity android:name=".DonadorAptoActivity"></activity>
     </application>
 
 </manifest>

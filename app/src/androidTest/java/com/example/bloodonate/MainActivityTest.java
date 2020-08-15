@@ -16,8 +16,8 @@ public class MainActivityTest {
 
     @Test
     public void onActivityResult() {
-        assertEquals( "acayro@unsa.edu.pe", FirebaseAuth.getInstance().createUserWithEmailAndPassword("acayro@unsa.edu.pe","1234"));
-        assertEquals("jcarpio@gmail.com", FirebaseAuth.getInstance().createUserWithEmailAndPassword("wolin@unsa.edu","123456789"));
+        //assertEquals( "acayro@unsa.edu.pe", FirebaseAuth.getInstance().createUserWithEmailAndPassword("acayro@unsa.edu.pe","1234"));
+        //assertEquals("jcarpio@gmail.com", FirebaseAuth.getInstance().createUserWithEmailAndPassword("wolin@unsa.edu","123456789"));
     }
 
     private void assertNotEquals(Task<AuthResult> userWithEmailAndPassword) {

@@ -66,7 +66,7 @@ public class SecondActivity extends AppCompatActivity {
             public void onClick(View view) {
                 agregarDonador();
                 //listarDonadores();
-                Intent i = new Intent(SecondActivity.this, UserMenuActivity.class);
+                Intent i = new Intent(SecondActivity.this, DonadorAptoActivity.class);
                 startActivity(i);
             }
         });
