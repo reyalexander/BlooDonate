@@ -27,20 +27,20 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:paddingTop="120dp"
         android:text="Edad de 18 - 55 años"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="144dp"
         android:ems="10"
         android:paddingTop="25dp"
         android:text="Peso: 50 kilos (minimo)"
@@ -53,7 +53,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="236dp"
+        android:layout_marginTop="192dp"
         android:ems="10"
         android:paddingTop="25dp"
         android:text="Gozar de buena salud"
@@ -66,7 +66,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="296dp"
+        android:layout_marginTop="240dp"
         android:ems="10"
         android:paddingTop="25dp"
         android:text="Se puede donar cada: \nMujeres (3 Meses) - Hombres (4 Meses)"
@@ -80,7 +80,7 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="364dp"
+        android:layout_marginTop="312dp"
         android:ems="10"
         android:paddingTop="25dp"
         android:text="Responder a cuestionarios relacionados con su salud y someterse a un chequeo medico general: Signos vitales y Hemogoblina"
@@ -106,7 +106,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.903" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
