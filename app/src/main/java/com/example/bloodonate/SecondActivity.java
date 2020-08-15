@@ -78,7 +78,7 @@ public class SecondActivity extends AppCompatActivity {
         databaseReference = firebaseDatabase.getReference();
     }
 
-    private void agregarDonador() {
+    protected void agregarDonador() {
         int dono;
         if(donoD.isChecked()){
             dono = 1;
@@ -118,7 +118,7 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
 
-    private void setupSpinners(){
+    protected void setupSpinners(){
         //Tipo de Sangre
         List<String> spinnerTipo = new ArrayList<>();
         spinnerTipo.add("A");
@@ -149,7 +149,7 @@ public class SecondActivity extends AppCompatActivity {
         telefonoD.setText("");
     }
 
-    private void validacion() {
+    protected void validacion() {
         String nombre = nombreD.getText().toString();
         String apellidoP = apeP.getText().toString();
         String apellidoM = apeM.getText().toString();
