@@ -135,7 +135,6 @@ public class SecondActivity extends AppCompatActivity {
         emailD.setText("");
         direccionD.setText("");
         telefonoD.setText("");
-        donoD.setText("");
     }
 
     private void validacion() {

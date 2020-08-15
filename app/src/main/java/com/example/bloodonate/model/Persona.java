@@ -104,4 +104,21 @@ public class Persona {
     public void setDono(int dono) {
         this.dono = dono;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "ID='" + ID + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellidoPaterno='" + apellidoPaterno + '\'' +
+                ", apellidoMaterno='" + apellidoMaterno + '\'' +
+                ", DNI='" + DNI + '\'' +
+                ", email='" + email + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", tipoSangre='" + tipoSangre + '\'' +
+                ", RH='" + RH + '\'' +
+                ", dono=" + dono +
+                '}';
+    }
 }
